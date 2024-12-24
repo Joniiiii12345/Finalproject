@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #ffffff;             
+}
+
+.navbar {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.navbar .logo a {
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s;
+    margin-left: 40px;
+}
+
+.nav-links li a:hover {
+    background-color: rgb(94, 128, 139);
+    border-radius: 5px;
+}
+
+#benifits{
+    margin-top: 200px;
+    width: 1902px;
+    height: 900px;
+    background-color: rgb(94, 128, 139);
+}
+
+#solarpanel{
+    background-color: white;
+}
+
+#sola{
+    margin-left: 500px;
+    margin-top: 230px;
+    
+}
+
+button{
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 5px;
+    width: 80px;
+    height: 32px;
+    background-color: rgb(94, 128, 139);
+    border: none;
+}
+
+.web-display{
+    display: flex;
+    justify-content: center;
+}
+
+#benifits{
+    text-align: center;
+    margin-top: 200px;
+}
+
+#h1{
+    margin-top: 100px;
+}
