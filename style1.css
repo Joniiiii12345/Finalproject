@@ -142,4 +142,98 @@ button{
     max-width: 400px;
 }
 
+#H1{
+    margin-left: 770px;
+}
+
+#line{
+    margin-left: 765px;
+}
+
+----------------------
+
+.contact {
+    max-width: 600px;
+    margin-top: 400px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: rgb(94, 128, 139);
+    margin-left: 500px;
+}
+
+#line {
+    width: 50px;
+    height: 2px;
+    background-color: rgb(94, 128, 139);
+    margin: 10px auto;
+}
+
+#bbb {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    color: rgb(94, 128, 139);
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%; /* Full width */
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid rgb(94, 128, 139);
+    border-radius: 4px;
+    font-size: 14px;
+    color: rgb(94, 128, 139);
+    text-align: left;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: rgb(94, 128, 139);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center; /* Center the button within the flex container */
+    transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+    background-color: rgb(74, 108, 119);
+}
+
+
+#contact-form {
+    margin: 0 auto;
+    margin-top: 130px;
+    max-width: 500px; /* Ensure the form width is fixed for centering */
+}
+
 
