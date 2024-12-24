@@ -1,11 +1,53 @@
-body{
-    text-align: center;
-    margin-top: 100px;
-    background-color: rgb(211, 219, 224);
+html {
+    scroll-behavior: smooth;
 }
 
+body {
+    text-align: center;
+    background-color: rgb(211, 219, 224);
+    font-family: Arial, sans-serif;
+}
 
-#signup{
+.navbar {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.navbar .logo a {
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s;
+    margin-left: 40px;
+}
+
+.nav-links li a:hover {
+    background-color: rgb(94, 128, 139);
+    border-radius: 5px;
+}
+
+#signup {
     width: 350px;
     height: 590px;
     background-color: rgb(94, 128, 139);
@@ -15,7 +57,7 @@ body{
     justify-content: center;
 }
 
-#login{
+#login {
     width: 350px;
     height: 460px;
     background-color: rgb(94, 128, 139);
@@ -26,11 +68,11 @@ body{
     margin-bottom: auto;
 }
 
-h1{
+h1 {
     color: white;
 }
 
-button{
+button {
     border-radius: 5px;
     width: 80px;
     height: 32px;
@@ -38,12 +80,12 @@ button{
     border: none;
 }
 
-.display{
+.display {
     display: flex;
     justify-content: center;
 }
 
-input{
+input {
     border-radius: 5px;
     border: none;
     height: 18px;
